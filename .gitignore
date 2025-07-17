@@ -1,5 +1,6 @@
 /build/
-*.csv
 test-runs/logs/
 *.env
-hello.txt
+*.txt
+!world.txt 
+#! is used to negate world.txt from .gitignore
